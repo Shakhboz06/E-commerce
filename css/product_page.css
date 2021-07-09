@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.screen_products{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px;
+}
+body{
+    font-family: 'Gilroy';
+}
+.screen_products .wrapper .sides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 100px;
+    text-decoration: none;
+}
+.screen_products .wrapper .sides .left_side .links a{
+    color: #000;
+    opacity: 0.5;
+    text-decoration: none;
+    padding: 24px 0;
+}
+.screen_products .links{
+    display: flex;
+    grid-gap: 10px;
+}
+.screen_products .left_side img{
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+}
+.screen_products .sides .left_side .links .active1{
+    color: #000;
+    opacity: 100% !important;
+    margin-bottom: 30px;
+}
+.screen_products .wrapper .right_side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+}
+.screen_products .product_details .heading h3{
+    font-size: 32px;
+}
+.screen_products .product_details .heading span{
+    font-weight: 16px;
+}
+.screen_products .wrapper .right_side .product_details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+.screen_products .wrapper .right_side p{
+    max-width: 60ch;
+}
+.screen_products .wrapper .right_side .color_subheading{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 45px;
+    grid-gap: 5px;
+}
+.screen_products .wrapper .right_side .price_info{
+    display: flex;
+    align-items: center;
+}
+.screen_products .wrapper .right_side .price_info h3{
+    color: #98B6D2;
+    margin-bottom: 12px;
+}
+.color_options :last-child{
+    margin-top: 30px;
+}
+.color_subheading :first-child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #E6E3DF;
+    margin-top: 10px;
+}
+.color_subheading :last-child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #EFC5AD;
+    margin-top: 10px;
+}
+.screen_products .wrapper .right_side .product_tool{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.screen_products .product_quantity{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 40px;
+}
+.screen_products .wrapper .right_side .product_tool :first-child,.screen_products .wrapper .right_side .product_tool :last-child{
+    width: 20px;
+    height: 20px;
+    background-color: #E4EDF3;
+    border: 1px solid #E4EDF3;
+    text-align: center;
+}
+.screen_products .wrapper .right_side .product_tool :nth-child(2){
+    width: 20px;
+    height: 20px;
+    background-color: #F7F8FA;
+    border: 1px solid #F7F8FA;
+    text-align: center;
+}
+.screen_products .add_cart, .screen_products .add_cart a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #98B6D2;
+    grid-gap: 10px;
+    text-decoration: none;
+}
+.screen_products  .add_cart img{
+    width: 20px;
+    height: 20px;
+}
+.screen_products .dist_preview, .screen_products .dist_preview a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 50px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 30px;
+}
+.screen_products .dist_indicators{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: grey;
+}
+.screen_products .dist_indicators :first-child{
+    width: 12ch;
+    height: 2px;
+    border: 1px solid #98B6D2;
+    background-color: #98B6D2;
+}
+.screen_products .wrapper .recommendations .def_block{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+.screen_products .wrapper .recommendations .def_block h2{
+    margin: 40px 0;
+}
+.screen_products .wrapper .recommendations .recommendation_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 70px;
+}
+.screen_products .wrapper .recommendations .recommendation_img img{
+    width: 250px;
+    height: 250px;
+}

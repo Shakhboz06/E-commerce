@@ -1,0 +1,363 @@
+.cart_page {
+    background-color: white;
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 100%;
+    
+    
+}
+
+
+.margin {
+    height: 50px;
+}
+
+.cart_screen {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.cart_screen .cart_left {
+    margin: 0 auto;
+    height: 1100px;
+    width: 700px;
+}
+
+
+.cart_screen .cart_headr {
+    margin: 0 auto;
+    display: flex;
+    height: 50px;
+    width: 1420px;
+    /* background-color: brown; */
+}
+
+.cart_headr a {
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+
+
+.cart_left .shipping_details {
+    height: 220px;
+    width: 450px;
+    margin: 40px 0px;
+
+}
+
+.shipping_details h5 {
+    font-size: 30px;
+    font-weight: 900px;
+    padding-bottom: 20px;
+    color: rgb(46, 46, 46);
+
+}
+
+.shipping_details p {
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+
+}
+
+.cart_left .paymet_delails {
+    height: 200px;
+    width: 700px;
+    /* background-color: #F8403C; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.paymet_delails h5 {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: rgb(46, 46, 46);
+}
+
+.credit_cards label,
+input {
+    font-size: 25px;
+    font-weight: 900;
+    margin: 20px 0;
+    margin-right: 20px;
+    height: 18px;
+    width: 18px;
+    color: rgb(46, 46, 46);
+
+}
+
+.card_number {
+    margin: 50px 0;
+    border: 0px solid;
+    border-bottom: 1px solid rgb(157, 157, 157);
+    /* background-color: brown; */
+    height: 90px;
+    width: 650px;
+}
+
+.card_number .input_card_number {
+    font-size: 17px;
+    color: rgb(95, 95, 95);
+    width: 550px;
+    height: 40px;
+    border: 0px solid;
+
+
+
+}
+
+.card_number .label_card_number {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+
+
+}
+
+.card_number img {
+    height: 25px;
+    width: 50px;
+    object-fit: contain;
+    image-rendering: pixelated;
+
+}
+
+
+.card_holder {
+    height: 90px;
+    width: 250px;
+    border: 0px solid;
+    border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+.card_holder label {
+    font-size: 20px;
+
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+
+}
+
+
+.card_holder input {
+    height: 40px;
+    width: 200px;
+    border: 0px solid;
+    font-size: 17px;
+    color: rgb(95, 95, 95);
+}
+
+
+.expry_date {
+    margin: 0 20px;
+    height: 90px;
+    width: 180px;
+    /* background-color: brown; */
+    border: 0px solid;
+    border-bottom: 1px solid rgb(157, 157, 157);
+
+}
+
+
+.expry_date label {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+
+}
+
+.expry_date input {
+    height: 40px;
+    width: 100px;
+    border: 0px solid;
+    font-size: 17px;
+    color: rgb(95, 95, 95);
+
+
+}
+
+
+
+.cvc_code {
+    margin-right: 20px;
+    height: 90px;
+    width: 180px;
+    /* background-color: brown; */
+    border: 0px solid;
+    border-bottom: 1px solid rgb(157, 157, 157);
+
+}
+
+
+
+.cvc_code label {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(95, 95, 95);
+
+}
+
+
+.cvc_code input {
+    height: 40px;
+    width: 100px;
+    border: 0px solid;
+    font-size: 17px;
+    color: rgb(95, 95, 95);
+
+
+}
+
+
+.paymet_delails button {
+    margin: 50px 0;
+    height: 50px;
+    width: 200px;
+    border: 0 solid;
+    font-size: 20px;
+    background-color: rgb(98, 145, 189);
+    color: rgb(230, 230, 230);
+
+
+}
+
+.paymet_delails button:hover {
+
+    background-color: rgb(69, 127, 181);
+    color: white;
+
+
+}
+
+/* ///////////////////////// */
+
+.cart_right {
+
+    background-color: rgb(231, 239, 245);
+    width: 700px;
+}
+
+
+.cart_right_headr {
+    /* background-color: rgb(255, 0, 0); */
+    width: 700px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_right_headr span {
+    margin: 40px 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(41, 41, 41);
+
+
+}
+
+
+.total-cast {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(41, 41, 41);
+
+}
+
+
+/* /////////// */
+
+
+.your_order {
+    width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: violet; */
+}
+
+
+.your_order_product {
+    height: 200px;
+    width: 650px;
+    /* background-color: rgb(255, 0, 0); */
+    display: flex;
+}
+
+.order_product_img {
+    height: 180px;
+    width: 130px;
+    object-fit: contain;
+    image-rendering: pixelated;
+
+}
+
+.your_product_inf {
+    /* background-color: rgb(255, 0, 0); */
+    height: 50px;
+    width: 500px;
+    margin: auto auto;
+    display: flex;
+    /* background-color: red; */
+}
+
+.order_product_name {
+    font-size: 23px;
+    font-weight: 900;
+    color: rgb(126, 126, 126);
+
+
+}
+
+.yuor_product_quantity {
+    margin: 0 auto;
+}
+
+.yuor_product_quantity button {
+    background-color: rgb(207, 222, 235);
+    height: 30px;
+    width: 30px;
+    margin: 0 -3px;
+    border: 0px solid;
+}
+
+.yuor_product_quantity button:hover {
+    background-color: rgb(69, 127, 181);
+}
+
+.yuor_product_quantity button:nth-child(2) {
+    background-color: rgb(227, 238, 247);
+
+}
+
+.yuor_product_quantity button:nth-child(2):hover {
+    background-color: rgb(227, 238, 247);
+
+
+}
+
+
+
+.order_product_prace {
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(126, 126, 126);
+
+}
