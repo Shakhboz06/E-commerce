@@ -55,8 +55,7 @@ for (let item of brands) {
             name_catg.classList.remove('name_brands')
             name_catg.classList.remove('ctg_active')
             name_catg.classList.toggle('ctg_active_dark')
-        }
-        else {
+        } else {
             name_catg.classList.add('name_brands')
             name_catg.classList.remove('ctg_active_dark')
         }
@@ -83,13 +82,13 @@ let reload = (arr) => {
         let addCart = document.createElement('button')
         addCart.classList.add('btn_cart')
         addCart.setAttribute('id', item.id)
-        addCart.innerText = 'добавить в корзину'
+        addCart.innerText = 'Add to cart'
         btns_div.append(addCart)
 
         let delete_cart = document.createElement('button')
         delete_cart.classList.add('delete_cart')
         delete_cart.setAttribute('id', item.id)
-        delete_cart.innerText = 'удалить из корзины'
+        delete_cart.innerText = 'Remove from cart'
         btns_div.append(delete_cart)
 
 
