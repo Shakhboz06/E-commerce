@@ -1,5 +1,3 @@
-// Тут будет писаться основной код
-// Не пугайтесь этой штуки import
 import { brands, products } from './data.js';
 
 let right_center = document.querySelector('main .right_center')
